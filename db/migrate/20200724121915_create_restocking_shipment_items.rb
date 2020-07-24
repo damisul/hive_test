@@ -1,6 +1,6 @@
-class CreateRestockingShippingItems < ActiveRecord::Migration[6.0]
+class CreateRestockingShipmentItems < ActiveRecord::Migration[6.0]
   def change
-    create_table :restocking_shipping_items do |t|
+    create_table :restocking_shipment_items do |t|
       t.references :sku, null: false, foreign_key: true
       t.references :restocking_shipment, null: false, foreign_key: true
       t.integer :quantity, null: false
