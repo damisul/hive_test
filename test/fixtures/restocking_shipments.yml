@@ -1,0 +1,5 @@
+shipment_processing:
+  user: alice
+  shipment_provider: dhl
+  status: processing
+  shipping_cost: 200.50

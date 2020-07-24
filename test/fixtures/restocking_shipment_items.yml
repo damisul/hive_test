@@ -1,0 +1,9 @@
+shipping_processing_necklace:
+  restocking_shipment: shipment_processing
+  sku: necklace
+  quantity: 100
+
+shipping_processing_bracelet:
+  restocking_shipment: shipment_processing
+  sku: bracelet
+  quantity: 100
